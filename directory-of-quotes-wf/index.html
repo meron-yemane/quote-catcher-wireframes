@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML wireframes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+  </head>
+  <body>
+    <nav>
+      <div>Homepage</div>
+      <div>Quotes</div>
+      <div>Add Quote</div>
+      <div>Logout</div>
+    </nav>
+    <header>
+      <h1>Quote Collection</h1>
+    </header>
+    <section>
+      <form>
+        <div class="form-section">
+          <label for="themeSearch">Search by theme</label>
+            <div>
+              <select multiple size="5">
+                <option value="Relationships">Relationships</option>
+                <option value="Finances">Finances</option>
+                <option value="Me">Me</option>
+                <option value="Dating">Dating</option>
+                <option value="Fear">Fear</option>
+                <option value="Career">Career</option>
+                <option value="Perseverance">Perseverance</option>
+              </select>
+          </div>
+        </div>
+        <div class="form-section">
+          <label for="quoteSearch">Search Quote</label>
+          <input type="text" name="quoteSearch">
+        </div>
+        <div class="form-section">
+          <label for="authorSearch">Search by author</label>
+          <input type="text" name="authorSearch">
+        </div>
+        <div class="form-section">
+          <label for="bookSearch">Search by book</label>
+          <input type="text" name="bookSearch">
+        </div>
+        <button type="submit">Search</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+    <section class="quote-expanded">
+      <h2>"Please accept my resignation. I don't care to belong to any club that would have me as a member."</h2>
+      <h4>- Groucho Marx</h4>
+      <div>
+        <h3>Theme(s): Career</h3>
+        <h3>Book or Source: Groucho and Me</h3>
+      </div>
+    </section>
+    <section>
+      <div class="firstQuote">
+        <h2>"Praesent sagittis a mi sit amet dictum. Donec orci nibh, dignissim in leo et, congue semper mauris. Donec elit lacus, dictum et placerat..."</h2>
+        <button type="submit">Expand</button>
+      </div>
+      <div class="secondQuote">
+        <h2>"Suspendisse a tempus dolor. Nullam porttitor nisi sed justo dictum consequat. Etiam sed congue feli..."</h2>
+        <button type="submit">Expand</button>
+      </div>
+    </section>
+  </body>
+</html>

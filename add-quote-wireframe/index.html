@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+  </head>
+  <body>
+    <nav>
+      <div>Homepage</div>
+      <div>Quotes</div>
+      <div>Add Quote</div>
+      <div>Logout</div>
+    </nav>
+    <form id="parentForm">
+      <div class="form-section">
+        <label for="quote">New Quote</label>
+        <div>
+          <textarea name="dream-summary" rows="15" required></textarea>
+        </div>
+        <div class="form-section">
+          <label for="author">Author</label>
+          <input type="text" name="author">
+        </div>
+        </div>
+      </div>
+      <div class="form-section">
+        <label for="theme">Pick 1 or more themes</label>
+        <div>
+          <select multiple size="5">
+            <option value="Relationships">Relationships</option>
+            <option value="Finances">Finances</option>
+            <option value="Me">Me</option>
+            <option value="Dating">Dating</option>
+            <option value="Fear">Fear</option>
+            <option value="Career">Career</option>
+            <option value="Perseverance">Perseverance</option>
+          </select>
+        </div>
+      </div>
+    </form>
+    <form id="parentForm">
+      <div class="form-section">
+        <label for="createTheme">Create a new theme</label>
+        <input type="text" name="createTheme">
+      </div>
+        <button class="themeButton" type="submit">Submit</button>
+    </form>
+    <form id="parentForm">
+      <div class="form-section">
+        <label for="book-title">Book title</label>
+        <input type="text" name="book-title">
+      </div>
+      <button form="parentForm" type="submit">Submit</button>
+      <button form="parentForm" type="reset">Reset</button>
+    </form>
+  </body>
+</html>

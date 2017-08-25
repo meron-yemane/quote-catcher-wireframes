@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #aaa;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2% 0;
+}
+
+nav div {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+form {
+  padding: 10%;
+  background-color: #bbb;
+  left: 0;
+  right: 0;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 500px;
+}
+
+select {
+  width: 75%;
+  max-width: 350px;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: white;
+  border: solid white;
+  border-radius: 3px;
+}
+

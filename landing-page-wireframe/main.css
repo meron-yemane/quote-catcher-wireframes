@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #aaa;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2% 0;
+}
+
+nav div {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+body header h1 h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 5%;
+}
+
+h2 {
+  text-align: center;
+}
+
+#loginSec h3 { 
+  text-align: center;
+  padding: 5%;
+}
+
+section {
+  background-color: #bbb;
+}
+
+.forms {
+  padding: 3%;
+}
+
+div button {
+  border-radius: 3px;
+}
+
+
+.loginForm {
+  text-align: center;
+  padding: 3% 0 3%;
+}
+
+button  {
+  background-color: white;
+  border: solid white;
+}
