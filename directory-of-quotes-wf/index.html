@@ -4,13 +4,14 @@
     <title>HTML wireframes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav>
-      <div>Homepage</div>
-      <div>Quotes</div>
+      <div><span class="fa fa-home"></span></div>
       <div>Add Quote</div>
-      <div>Logout</div>
+      <div><span class="fa fa-search"></span>&nbsp;Search</div>
+      <div style="font-size: .75em">Logout</div>
     </nav>
     <header>
       <h1>Quote Collection</h1>
@@ -38,10 +39,6 @@
         <div class="form-section">
           <label for="authorSearch">Search by author</label>
           <input type="text" name="authorSearch">
-        </div>
-        <div class="form-section">
-          <label for="bookSearch">Search by book</label>
-          <input type="text" name="bookSearch">
         </div>
         <button type="submit">Search</button>
         <button type="reset">Reset</button>

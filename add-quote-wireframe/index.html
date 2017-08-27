@@ -4,13 +4,14 @@
     <title>HTML wireframe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav>
-      <div>Homepage</div>
-      <div>Quotes</div>
+      <div><span class="fa fa-home"></span></div>
       <div>Add Quote</div>
-      <div>Logout</div>
+      <div><span class="fa fa-search"></span>&nbsp;Search</div>
+      <div style="font-size: .75em">Logout</div>
     </nav>
     <form id="parentForm">
       <div class="form-section">
@@ -37,19 +38,7 @@
             <option value="Perseverance">Perseverance</option>
           </select>
         </div>
-      </div>
-    </form>
-    <form id="parentForm">
-      <div class="form-section">
-        <label for="createTheme">Create a new theme</label>
-        <input type="text" name="createTheme">
-      </div>
-        <button class="themeButton" type="submit">Submit</button>
-    </form>
-    <form id="parentForm">
-      <div class="form-section">
-        <label for="book-title">Book title</label>
-        <input type="text" name="book-title">
+        <span>+&nbsp;</span><a style="font-size: .75em" class="addTheme" href="#">add theme</a>
       </div>
       <button form="parentForm" type="submit">Submit</button>
       <button form="parentForm" type="reset">Reset</button>
